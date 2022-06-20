@@ -1,4 +1,4 @@
-/* ------------ youtube.com/CodeExplained ------------ */
+
 body{
     padding: 0;
     margin: 0;
@@ -8,7 +8,7 @@ body{
 
 /* ------------ container ------------ */
 .container{
-    padding:100px;
+    padding:10px;
     width:380px;
     margin:0 auto;
 }
@@ -16,7 +16,7 @@ body{
 /* ------------ header ------------ */
 .header{
     width: 380px;
-    height:170px;
+    height:200px;
     background-image: url('https://c.tenor.com/QkBOcqjpksIAAAAM/patrick-star-to-do-list.gif');
     background-size: 100% 200%;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body{
     position: absolute;
     top: 10px;
     left: 10px;
-    color: #FFF;
+    color: white;
     font-size: 25px;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -51,8 +51,8 @@ body{
 /* ------------ content ------------ */
 .content{
     width:380px;
-    height: 400px;
-    max-height:500px;
+    height: 350px;
+    max-height:350px;
     background-color: #FFF;
     overflow: auto;
 }
@@ -135,22 +135,22 @@ body{
     font-size: 20px;
     padding-left:10px;
 }
-.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.add-to-do input::-webkit-input-placeholder {
     color: #4162f6;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
 }
-.add-to-do input::-moz-placeholder { /* Firefox 19+ */
+.add-to-do input::-moz-placeholder {
     color: #4162f6;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
 }
-.add-to-do input:-ms-input-placeholder { /* IE 10+ */
+.add-to-do input:-ms-input-placeholder {
     color: #4162f6;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
 }
-.add-to-do input:-moz-placeholder { /* Firefox 18- */
+.add-to-do input:-moz-placeholder {
     color: #4162f6;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
